@@ -3,8 +3,8 @@
 ## cspell.json
 
 ```json
-$ touch cspell.json
-$ cat cspell.json
+$ touch .cspell.json
+$ cat .cspell.json
 {
   "ignorePaths": [
     "node_modules/**",
