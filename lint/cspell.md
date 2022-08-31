@@ -3,14 +3,16 @@
 ## cspell.json
 
 ```json
+$ touch cspell.json
+$ cat cspell.json
 {
-  "ignoreWords": [
-    "foobar"
-  ],
   "ignorePaths": [
     "node_modules/**",
     "package-local.json",
     "pnpm-lock.yaml"
+  ],
+  "words": [
+    "foobar"
   ]
 }
 ```
