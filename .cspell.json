@@ -1,4 +1,7 @@
 {
+  "ignorePaths": [
+    "*.log"
+  ],
   "words": [
     "Anson",
     "igorshubovych",
