@@ -11,6 +11,13 @@ ncu -u
 rm -rf node_modules && npm install
 ```
 
+グローバルパッケージの場合
+
+```shell
+ncu -g
+ncu -gu
+```
+
 <https://github.com/raineorshine/npm-check-updates>
 
 ## 利用していないパッケージ検出
