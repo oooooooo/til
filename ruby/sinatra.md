@@ -11,6 +11,11 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 
+gem 'activerecord'
+gem 'activesupport'
+# gem 'mysql2'
+# gem 'sqlite3'
+
 group :development do
   gem 'rerun'
   gem 'rubocop'
@@ -74,6 +79,84 @@ end
   <body>
   </body>
 </html>
+```
+
+## DB
+
+### [SQLite] db/connect.rb
+
+```ruby
+# frozen_string_literal: true
+
+require 'active_record'
+
+ActiveRecord.default_timezone = :utc
+ActiveRecord::Base.establish_connection(
+  adapter: 'sqlite3',
+  database: ENV.fetch('APP_DB_NAME', nil) # db/foo.db
+)
+```
+
+### [MySQL] db/connect.rb
+
+```ruby
+# frozen_string_literal: true
+
+require 'active_record'
+
+host = ENV.fetch('RDS_HOSTNAME', nil)
+username = ENV.fetch('RDS_USERNAME', nil)
+password = ENV.fetch('RDS_PASSWORD', nil)
+database = ENV.fetch('RDS_DB_NAME', nil)
+port = ENV.fetch('RDS_PORT', nil)
+
+ActiveRecord.default_timezone = :utc
+ActiveRecord::Base.establish_connection(
+  adapter: 'mysql2',
+  host:,
+  username:,
+  password:,
+  database:,
+  port:
+)
+```
+
+### db/schema.rb
+
+```ruby
+# frozen_string_literal: true
+
+require './connect'
+
+# User
+class CreateUserTable < ActiveRecord::Migration[7.0]
+  def change
+    create_table :users do |t|
+      t.string :first_name
+      t.string :last_name
+      t.string :email
+
+      t.timestamps
+    end
+  end
+end
+CreateUserTable.migrate(:up) unless ActiveRecord::Base.connection.table_exists?(:users)
+```
+
+- <https://guides.rubyonrails.org/active_record_migrations.html>
+- <https://guides.rubyonrails.org/active_record_basics.html>
+
+### models/user.rb
+
+```ruby
+# frozen_string_literal: true
+
+require 'active_record'
+
+# User
+class User < ActiveRecord::Base
+  self.table_name = 'users'
+end
 ```
 
 ## Run
