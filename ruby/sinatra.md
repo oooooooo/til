@@ -2,6 +2,22 @@
 
 ## Template
 
+### Gemfile
+
+```ruby
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'sinatra'
+
+group :development do
+  gem 'rerun'
+  gem 'rubocop'
+  gem 'ruby-lsp', require: false
+end
+```
+
 ### Simple
 
 ```ruby
