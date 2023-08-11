@@ -33,6 +33,12 @@ get '/' do
   content_type :json
   puts params.to_json
 end
+
+post '/' do
+  params = JSON.parse(request.body.read)
+  content_type :json
+  { foo: params.foo }
+end
 ```
 
 ## Run
@@ -56,4 +62,3 @@ source "$HOME/.asdf/asdf.sh"
 cd "$HOME/foo" || exit
 nohup ruby app.rb &
 ```
-
