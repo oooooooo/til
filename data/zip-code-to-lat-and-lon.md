@@ -14,3 +14,8 @@
 - [位置参照技術を用いたツールとユーティリティ – Geocoding tools and utilities](https://geocode.csis.u-tokyo.ac.jp/)
 - [ケンオール 📮 郵便番号住所検索・住所逆引き・法人情報API](https://kenall.jp/)
 - [郵便番号検索API - zipcloud](http://zipcloud.ibsnet.co.jp/doc/api)
+
+## 日本測地系/世界測地系の変換
+
+- [PROJ](https://proj.org/)
+  - [go-projを用いて日本測地系/世界測地系の変換 | フューチャー技術ブログ](https://future-architect.github.io/articles/20221129a/)
