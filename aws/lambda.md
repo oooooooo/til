@@ -37,3 +37,6 @@ Outputs:
     Description: "Function URL endpoint"
     Value: !GetAtt HelloWorldFunctionUrl.FunctionUrl
 ```
+
+- <https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html>
+- <https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-property-function-functionurlconfig.html>
