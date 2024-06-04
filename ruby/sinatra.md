@@ -62,6 +62,20 @@ post '/' do
 end
 ```
 
+## Logger
+
+```ruby
+# frozen_string_literal: true
+
+require 'sinatra'
+
+get '/' do
+  logger.info params # QueryString and/or x-www-form-urlencoded
+  logger.info request.body.read # e.g. application/json
+  erb :index
+end
+```
+
 ## HTML
 
 ```html
