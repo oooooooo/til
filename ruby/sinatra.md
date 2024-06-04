@@ -58,7 +58,7 @@ end
 post '/' do
   params = JSON.parse(request.body.read)
   content_type :json
-  { foo: params.foo }
+  { foo: params.foo }.to_json
 end
 ```
 
