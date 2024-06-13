@@ -86,8 +86,8 @@ end
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <title></title>
-    <link rel="stylesheet" href="https://unpkg.com/bamboo.css@1.3.11/dist/dark.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bamboo.css/dist/dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="shortcut icon" href="/favicon.ico">
   </head>
   <body>
