@@ -1,5 +1,35 @@
 # Lambda
 
+## Template
+
+### Environment
+
+```yaml
+    Properties:
+      Variables:
+          FOO: 'blur'
+          BAR: |
+            lime1
+            line2
+```
+
+### POST/GET
+
+```yaml
+    Properties:
+      Events:
+        GetPage:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: get
+        PostPage:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: post
+```
+
 ## Functional URL
 
 Add FunctionUrlConfig and HelloWorldFunctionURL.
