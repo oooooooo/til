@@ -40,3 +40,37 @@ Outputs:
 
 - <https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html>
 - <https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-property-function-functionurlconfig.html>
+
+## Ruby
+
+### Bundle
+
+```shell
+bundle config set --local path 'vendor/bundle' && bundle install
+```
+
+<https://docs.aws.amazon.com/lambda/latest/dg/ruby-package.html>
+
+### Header
+
+```ruby
+  headers = {
+    'Content-Type': 'text/html'
+  }
+
+  {
+    statusCode: 200,
+    headers:,
+    body:
+  }
+```
+
+### Params
+
+```ruby
+  # form
+  params = event['queryStringParameters'] || {}
+
+  # json
+  params = JSON.parse(event['body'] || {})
+```
