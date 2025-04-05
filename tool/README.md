@@ -19,8 +19,8 @@
 - ping → mtr
 - ps → procs
 - screen → tmux → zellij
-- ssh → mosh/EternalTerminal → zellij
-  - 再接続できるのほしい。mosh/et は ProxyJump が使えず
+- ssh → mosh/EternalTerminal → ssh
+  - ssh 先で C-c したい。mosh/et は ProxyJump が使えず
 - tcsh → bash → fish → zsh
   - ohmyzsh + powerline → fig → zinit + starship
 - top → htop → gtop → glances → procs -w
