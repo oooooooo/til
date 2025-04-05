@@ -14,6 +14,7 @@
 - find → peco + fd
 - grep → ag → rg
 - history → peco → fzf
+    - TODO: <https://github.com/atuinsh/atuin>
 - ls → exa
 - man → tldr → tealdeer
 - ping → mtr
