@@ -39,6 +39,7 @@
   - 検索キーワードだけで Google 検索できるのを探している
 - Clipy
 - iTerm2 → Hyper → Warp → WezTerm → Ghostty
+- Karabiner
 
 ## Windows
 
@@ -51,6 +52,7 @@
 ## Development
 
 - ack → nkf
+- barrier
 - chezmoi
   - <https://zenn.dev/ganariya/articles/useful-features-of-chezmoi>
 - direnv → direnv + quickenv
@@ -59,6 +61,8 @@
 - jq + gron
 - n/nvm/pyenv/rbenv → asdf → mise
 - psql → pgcli
+- tailscale
+- tree → exa -T
 
 ## JavaScript
 
@@ -69,7 +73,7 @@
 
 ## Rails
 
-- FactoryBot → Rails 8 (fixture)
+- FcatoryGirl → FactoryBot → Rails 8 (fixture)
 - kaminari → pagy
 - rspec → Rails 8 (minitest)
 - slim → Rails 8 (erb)
