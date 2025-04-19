@@ -9,6 +9,13 @@ http -a $USERNAME:$PASSWORD example.com
 https -A bearer -a $JWT example.com
 ```
 
+```shell
+# NG
+http GET -A bearer -a $JWT example.com
+# OK
+http -A bearer -a $JWT GET example.com
+```
+
 <https://httpie.io/docs/cli/authentication>
 
 ## Forms
