@@ -6,7 +6,7 @@
 # Basic auth
 http -a $USERNAME:$PASSWORD example.com
 # Bearer auth
-https -A bearer -a $JWT example.com
+http -A bearer -a $JWT example.com
 ```
 
 ```shell
