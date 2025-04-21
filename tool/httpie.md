@@ -73,3 +73,10 @@ http --proxy=http:socks5://user:pass@localhost:8888 example.com
 ```
 
 <https://httpie.io/docs/cli/proxies>
+
+## Elapsed time
+
+```shell
+$ http --meta www.google.com
+Elapsed time: 0.199798184s
+```
