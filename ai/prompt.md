@@ -5,3 +5,7 @@
 
 - [Prompt Engineering for LLMs[Book]](https://www.oreilly.com/library/view/prompt-engineering-for/9781098156145/)
   - [LLMのプロンプトエンジニアリング - O'Reilly Japan](https://www.oreilly.co.jp/books/9784814401130/)
+
+## 非エンジニア
+
+- [深津式プロンプト・システムでChatGPTを最大限に活用する方法｜Discovery AI](https://note.com/discovery_ai/n/nb42d8fba539d)
