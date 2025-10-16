@@ -59,6 +59,7 @@
 - git diff → diff-so-fancy → delta
 - git log → lazygit → tig
 - jq + gron
+- mkcert → Caddy
 - n/nvm/pyenv/rbenv → asdf → mise
 - psql → pgcli
 - tailscale
