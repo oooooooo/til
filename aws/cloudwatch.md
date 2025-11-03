@@ -21,4 +21,4 @@ Using specific dates:
 --start='Sat Oct 11 17:13:46 UTC 2003' You can use detailed dates too.
 ```
 
-- [jorgebastida/awslogs: AWS CloudWatch logs for Humans™](https://github.com/jorgebastida/awslogs)
+[jorgebastida/awslogs: AWS CloudWatch logs for Humans™](https://github.com/jorgebastida/awslogs)
