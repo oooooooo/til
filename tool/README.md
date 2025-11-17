@@ -65,6 +65,10 @@
 - tailscale
 - tree → exa -T
 
+## Server
+
+- certbot → lego
+
 ## JavaScript
 
 - Selenium → PhantomJS → Puppeteer → Playwright
