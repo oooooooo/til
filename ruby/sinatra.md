@@ -14,7 +14,11 @@ gem 'sinatra'
 gem 'activerecord'
 gem 'activesupport'
 # gem 'mysql2'
+# gem 'pg'
 # gem 'sqlite3'
+
+gem 'puma'
+gem 'rackup'
 
 group :development do
   gem 'rerun'
@@ -46,9 +50,6 @@ require 'sinatra'
 set :bind, '0.0.0.0'
 set :port, ENV['PORT'] || 3000
 
-configure do
-  mime_type :json, 'application/json'
-end
 
 get '/' do
   content_type :json
