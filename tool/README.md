@@ -66,6 +66,10 @@
 - tailscale
 - tree → exa -T
 
+## AWS
+
+- s3 aws → s5cmd
+
 ## Server
 
 - certbot → lego
