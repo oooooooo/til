@@ -58,6 +58,7 @@
 - direnv → direnv + quickenv
 - git diff → diff-so-fancy → delta
 - git log → lazygit → tig
+- husky → lefthook
 - jq + gron
 - mkcert → Caddy
 - n/nvm/pyenv/rbenv → asdf → mise
