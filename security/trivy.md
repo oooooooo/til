@@ -1,6 +1,9 @@
 # Trivy
 
 ```shell
+trivy image image:name
+
+trivy fs  --download-db-only
 trivy fs . --scanners vuln --format cyclonedx
 ```
 
