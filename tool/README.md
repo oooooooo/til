@@ -39,6 +39,7 @@
   - 検索キーワードだけで Google 検索できるのを探している
 - Clipy
 - iTerm2 → Hyper → Warp → WezTerm → Ghostty
+  - <https://ghostty.zerebos.com/settings/clipboard>
 - Karabiner
 
 ## Windows
