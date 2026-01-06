@@ -57,7 +57,7 @@
 - chezmoi
   - <https://zenn.dev/ganariya/articles/useful-features-of-chezmoi>
 - direnv → direnv + quickenv
-- git diff → diff-so-fancy → delta
+- git diff → diff-so-fancy → delta → difftastic
 - git log → lazygit → tig
 - husky → lefthook
 - jq + gron
