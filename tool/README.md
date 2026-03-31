@@ -39,6 +39,7 @@
   - 検索キーワードだけで Google 検索できるのを探している
 - Clipy
 - iTerm2 → Hyper → Warp → WezTerm → Ghostty
+  - <https://ghostty.zerebos.com/settings/clipboard>
 - Karabiner
 
 ## Windows
@@ -56,7 +57,7 @@
 - chezmoi
   - <https://zenn.dev/ganariya/articles/useful-features-of-chezmoi>
 - direnv → direnv + quickenv
-- git diff → diff-so-fancy → delta
+- git diff → diff-so-fancy → delta → difftastic
 - git log → lazygit → tig
 - husky → lefthook
 - jq + gron
