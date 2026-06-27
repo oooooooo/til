@@ -27,3 +27,7 @@ npx depcheck
 ```
 
 <https://github.com/depcheck/depcheck>
+
+## workspaces
+
+- [npm workspaces でモノレポのリポジトリを作ってみた | DevelopersIO](https://dev.classmethod.jp/articles/shoma-create-monorepo-repository-with-npm-workspaces/?shem=rimspwouohc,)
