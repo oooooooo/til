@@ -61,11 +61,17 @@
 - git log → lazygit → tig
 - husky → lefthook
 - jq + gron
+  - [ynqa/jnv: Interactive JSON filter using jq](https://github.com/ynqa/jnv)
 - mkcert → Caddy
-- n/nvm/pyenv/rbenv → asdf → mise
+- n/nvm/pyenv/rbenv → asdf → miseQ
 - psql → pgcli
 - tailscale
 - tree → exa -T
+
+## Terminal
+
+- [koki-develop/clive: ⚡ Automates terminal operations.](https://github.com/koki-develop/clive)
+  - [charmbracelet/vhs: Your CLI home video recorder 📼](https://github.com/charmbracelet/vhs)
 
 ## AWS
 
